@@ -120,9 +120,6 @@ Minimal component re-renders
 
 🚢 Deployment
 Build production-ready files:
-
-bash
-Copy code
 npm run build
 The dist/ folder will contain optimized assets for deployment on Vercel, Netlify, or GitHub Pages.
 
