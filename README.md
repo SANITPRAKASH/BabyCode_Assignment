@@ -52,12 +52,8 @@ The homepage showcases a fictional IELTS Institute with a focus on:
    ```bash
    git clone [your-repo-url]
    cd my-ielts-app
-2. Install dependencies:
-
-npm install
-3. Start the development server:
-
-npm run dev
+2. Install dependencies: npm install
+3. Start the development server: npm run dev
 4. Open in browser at:
 
 http://localhost:5173
