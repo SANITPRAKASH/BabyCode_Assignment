@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "../assets/logo.png";
 
 // Enhanced Button Component with hero variant
 const Button = ({ children, variant = "default", size = "default", className = "", onClick, ...props }) => {
@@ -64,7 +65,7 @@ const Navbar = () => {
           <a href="#home" className="flex items-center space-x-3 group cursor-pointer">
             <div className="relative">
               <div className="h-10 w-10 lg:h-12 lg:w-12 bg-gradient-to-br from-blue-600 to-blue-400 rounded-xl flex items-center justify-center shadow-md group-hover:shadow-lg transition-all duration-300 group-hover:scale-110">
-                <span className="text-white font-bold text-lg lg:text-xl">IE</span>
+                 <img src={logo} alt="IELTS Excellence Institute" className="h-12 w-20 lg:h-14 lg:w-20 rounded-md transition-transform group-hover:scale-110" />
               </div>
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-blue-400 rounded-xl opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-300"></div>
             </div>
